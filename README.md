@@ -19,3 +19,6 @@ To run the project locally, use the `start` command.
 ```bash
 npm run start
 ```
+### Responsive Design Example
+
+[![Edit elastic-shirley-0whsd](https://codesandbox.io/static/img/play-codesandbox.svg)](https://https://codesandbox.io/s/react-typescript-apollo-starter-kit-d89kr)
