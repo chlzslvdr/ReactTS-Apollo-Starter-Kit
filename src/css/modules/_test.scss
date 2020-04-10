@@ -1,0 +1,45 @@
+.test-section {
+  .company-info-container .heading {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .company-info {
+    text-align: center;
+    color: black;
+    padding-bottom: 12px;
+  }
+
+  .company-info .title {
+    padding-right: 10px;
+    font-weight: 600;
+  }
+
+  .company-info .label {
+    padding-right: 15px;
+  }
+
+  .company-employees-container .heading {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .employee-info {
+    text-align: center;
+    color: black;
+    padding-bottom: 12px;
+  }
+
+  .employee-info .title {
+    padding-right: 6px;
+    font-weight: 600;
+  }
+
+  .employee-info .label {
+    padding-right: 10px;
+  }
+}

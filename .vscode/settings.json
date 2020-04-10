@@ -1,0 +1,18 @@
+{
+    "editor.rulers": [80],
+    "editor.tabSize": 2,
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": false,
+    "explorer.confirmDelete": false,
+    "editor.formatOnSave": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "javascript.format.enable": true,
+    "explorer.confirmDragAndDrop": false,
+    "gitlens.keymap": "none",
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "javascript.updateImportsOnFileMove.enabled": "never"
+  }
+  
