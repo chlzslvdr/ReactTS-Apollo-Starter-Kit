@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/27886909-d8ff-4861-af94-9be35f0b015b/deploy-status)](https://app.netlify.com/sites/react-typescript-apollo-starter-kit/deploys)
 # React-Typescript-Apollo-Starter-Kit
 A create react app that utilizes typescript and Apollo Client
 
