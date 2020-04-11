@@ -2,7 +2,7 @@
 # React-Typescript-Apollo-Starter-Kit
 A create react app that utilizes React Typescript and Apollo Client
 
-DEMO: https://react-typescript-apollo-starter-kit.netlify.com
+[LIVE DEMO](https://react-typescript-apollo-starter-kit.netlify.com)
 
 ## Installation
 
@@ -19,6 +19,6 @@ To run the project locally, use the `start` command.
 ```bash
 npm run start
 ```
-### Responsive Design Example
+### Practice
 
 [![Edit elastic-shirley-0whsd](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-typescript-apollo-starter-kit-d89kr)
