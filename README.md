@@ -18,7 +18,7 @@ npm install // yarn install
 To run the project locally, use the `start` command.
 
 ```bash
-npm run start // yarn start
+npm start // yarn start
 ```
 
 ### Production
