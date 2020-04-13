@@ -29,4 +29,4 @@ npm build // yarn install
 
 ### Practice
 
-[![Edit elastic-shirley-0whsd](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-typescript-apollo-starter-kit-d89kr)
+[![Edit elastic-shirley-0whsd](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-typescript-apollo-starter-fl9bf)
