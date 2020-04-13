@@ -1,45 +1,20 @@
 .test-section {
-  .company-info-container .heading {
-    text-align: center;
-    padding-bottom: 20px;
-    font-size: 18px;
-    font-weight: 600;
+  height: 50vh;
+  text-align: center;
+  padding-top: 20%;
+
+  .link {
+    padding: 12px;
   }
 
-  .company-info {
-    text-align: center;
+  .link .button {
+    cursor: pointer;
     color: black;
-    padding-bottom: 12px;
+    padding: 15px;
   }
 
-  .company-info .title {
-    padding-right: 10px;
-    font-weight: 600;
-  }
-
-  .company-info .label {
-    padding-right: 15px;
-  }
-
-  .company-employees-container .heading {
-    text-align: center;
-    padding-bottom: 20px;
-    font-size: 18px;
-    font-weight: 600;
-  }
-
-  .employee-info {
-    text-align: center;
+  .link .button .anticon {
     color: black;
-    padding-bottom: 12px;
-  }
-
-  .employee-info .title {
-    padding-right: 6px;
-    font-weight: 600;
-  }
-
-  .employee-info .label {
-    padding-right: 10px;
+    padding-right: 8px;
   }
 }
