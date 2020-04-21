@@ -3,12 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import AppRoot from './appRoot/index';
 import * as serviceWorker from './serviceWorker';
-import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
+import {
+  ApolloProvider,
+  ApolloClient,
+  InMemoryCache,
+  HttpLink,
+} from '@apollo/client';
 import './css/main.scss';
 
+const cache = new InMemoryCache();
+
 const client = new ApolloClient({
-  cache: new InMemoryCache(),
-  uri: 'https://mock-apollo-server.netlify.com/',
+  cache,
+  link: new HttpLink({
+    uri: 'https://mock-apollo-server.netlify.app',
+  }),
 });
 
 const App = () => {

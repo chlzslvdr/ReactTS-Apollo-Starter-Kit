@@ -6,7 +6,7 @@ import Loading from '../../components/Loading';
 import Columns from './Columns';
 
 const RESIDENT = gql`
-  {
+  query {
     residentsList {
       id
       name
@@ -19,15 +19,13 @@ const RESIDENT = gql`
 `;
 
 const ResidentsList: FC = () => {
-  const { loading, error, data } = useQuery(RESIDENT);
+  const { loading, error, data } = useQuery(RESIDENT, {
+    fetchPolicy: 'network-only',
+  });
 
-  if (loading)
-    return (
-      <p>
-        <Loading />
-      </p>
-    );
-  if (error) return <p>Error :(</p>;
+  if (loading) return <Loading />;
+  if (error) return <>Error :(</>;
+
   return (
     <div className="residentsList-section">
       <Link to="/test" className="link">
