@@ -25,7 +25,7 @@ npm start // yarn start
 ### Production
 
 ```bash
-npm build // yarn install
+npm build // yarn build
 ```
 
 ### Practice
